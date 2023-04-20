@@ -11,6 +11,7 @@ Driver Version: 510.47.03
 CUDA Version: 11.6 
 
 We performed our executions in google cloud. Below are the machine configurations used:
+
 GPU Type- NVIDIA T4 and NVIDIA V100
 
 
