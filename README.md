@@ -1,7 +1,7 @@
 # SmallObjectDetection
 
-This repository includes the baseline code used in the [challenge](http://www.mva-org.jp/mva2023/challenge) .
-The detailed code with other models is available [here](https://github.com/A6897/MVA2023SmallObjectDetection4SpottingBirds.git) .
+This repository includes the codes used in the [challenge](http://www.mva-org.jp/mva2023/challenge).
+
 It is built on MMDetection V2.24.1 (released on Apr 30, 2022, source code is downloaded from [here](https://github.com/open-mmlab/mmdetection/releases/tag/v2.24.1)).
 
 
@@ -11,7 +11,7 @@ Driver Version: 510.47.03
 CUDA Version: 11.6 
 
 We performed our executions in google cloud. Below are the machine configurations used:
-GPU Type- NVIDIA T4
+GPU Type- NVIDIA T4 and NVIDIA V100
 
 
 ## Software Requirements
@@ -43,5 +43,5 @@ data
 
 ## Pretained Weights
 
-Weights: https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_140e_coco/centernet_resnet18_140e_coco_20210705_093630-bb5b3bf7.pth
+Weights ResNet18: https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_140e_coco/centernet_resnet18_140e_coco_20210705_093630-bb5b3bf7.pth
 
