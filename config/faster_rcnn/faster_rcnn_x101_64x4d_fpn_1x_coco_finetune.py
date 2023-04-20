@@ -25,7 +25,7 @@ lr_config = dict(
     warmup_iters=1000,
     warmup_ratio=1.0 / 1000,
     step=[15, 18])
-runner = dict(max_epochs=20)
-evaluation = dict(interval=20, metric='bbox')
+runner = dict(max_epochs=10)
+evaluation = dict(interval=10, metric='bbox')
 load_from = LIB_ROOT_DIR + '/work_dirs/faster_rcnn_x101_64x4d_fpn_1x_coco/latest.pth'
 checkpoint_config = dict(interval=1)
